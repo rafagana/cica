@@ -12,10 +12,10 @@
 source /etc/profile
 
 # Activate the Python virtual environment
-source /home/LQL3227/phd/bin/activate
+source /home/LQL3227/phd/phd_venv/bin/activate
 
 # Navigate to the directory containing the Python script
-cd /home/LQL3227/phd/data-engineering
+cd /home/LQL3227/phd/cica/data-engineering
 
 # Run the Python script
 python3 json_flatenning_parquet_cica.py

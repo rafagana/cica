@@ -46,7 +46,7 @@ def convert_pcaps_to_json(pcap_directory, output_directory):
             print("Error: tshark command not found. Make sure Wireshark is installed and tshark is in your PATH.")
 
 if __name__ == "__main__":
-    pcap_directory = "/home/LQL3227/phd/tcpdump" #("Enter the directory containing the pcap files: ")
+    pcap_directory = "/home/LQL3227/phd/pcap" #("Enter the directory containing the pcap files: ")
     output_directory = "/home/LQL3227/phd/json" #("Enter the directory to save the JSON files: ")
 
     # Expand user paths if the user provides them
